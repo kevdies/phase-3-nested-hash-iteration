@@ -19,7 +19,12 @@ end
 
 def remove_strawberry(contacts)
   # your code here!
+  contacts.each do [person, contact_details_hash]
+  binding.pry
+  end
 end
 
 # print the output to the terminal for inspection
 pp remove_strawberry(contacts)
+
+
